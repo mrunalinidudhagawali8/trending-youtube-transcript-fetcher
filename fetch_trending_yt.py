@@ -114,7 +114,7 @@ def get_english_content_videos(api_key, max_results=3, search_terms=["Deep dive 
         return None  # Return None instead of crashing
 
 if __name__ == "__main__":
-    api_key = "AIzaSyAdW4F4VbBP5RQfMpIgy8wcHRmNM4UVZYQ"
+    api_key = ""
     if not api_key:
         print("Please set the YOUTUBE_API_KEY environment variable.")
     else:
