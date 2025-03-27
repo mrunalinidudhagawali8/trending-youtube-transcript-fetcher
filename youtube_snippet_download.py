@@ -40,9 +40,9 @@ def download_youtube_snippet(video_url, start_time, end_time, output_filename="s
     print(f"Snippet saved as {trimmed_output}")
 
 # Example usage
-video_url = "https://www.youtube.com/watch?v=6C4ZV4TW86g"
-start_time = "00:00:25"  # Start time (hh:mm:ss)
-end_time = "00:00:37"  # End time (hh:mm:ss)
+video_url = "https://www.youtube.com/watch?v=CpltByaPaNY"
+start_time = "00:00:05"  # Start time (hh:mm:ss)
+end_time = "00:00:13"  # End time (hh:mm:ss)
 
 download_youtube_snippet(video_url, start_time, end_time)
 
