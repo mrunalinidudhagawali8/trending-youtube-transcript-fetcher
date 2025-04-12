@@ -48,6 +48,6 @@ def main(input_path):
         # print("Temporary files removed.")
 
 if __name__ == "__main__":
-    # input_file = "snippet.mp4"  # Change this to your video or audio file path
-    input_file = "mark_first_que.mp3"
+    input_file = "snippet.mp4"  # Change this to your video or audio file path
+    # input_file = "mark_first_que.mp3"
     main(input_file)
